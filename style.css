@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.quote-div {
+  margin: 0px 20px 20px 20px;
+  font-size: 22px;
+  text-wrap: wrap;
+  line-height: 30px;
+}
+
+.quote-author {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.generate-button {
+  font-size: 15px;
+  padding: 8px 10px 8px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
